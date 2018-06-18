@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/*import Подключаем все библиотеки и внешнии стили*/
+@import url(../libs/owl.carousel/dist/assets/owl.carousel.css);
+@import url(../libs/owl.carousel/dist/assets/owl.theme.default.css);
+/* основные стили*/
+body {
+  font-family: Montserrat;
+  font-size: 1em;
+  color: #000000; }
+
+.container {
+  width: 79.16%;
+  margin: 0 auto;
+  padding: 130px 0;
+  text-align: center; }
+
+.title-big {
+  font-size: 2.375em;
+  margin-bottom: 10px;
+  text-transform: uppercase; }
+
+.title__text {
+  font-family: Merriweather;
+  font-size: 1.125em;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  letter-spacing: 1.08px; }
+
+.head {
+  background-color: #eff0f2; }
+  .head .container {
+    padding-top: 65px; }
+  .head__navigation {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+
+.navigation__burger {
+  width: 30px;
+  height: 4px;
+  background-color: #000000;
+  opacity: 0.6;
+  position: relative; }
+  .navigation__burger:after, .navigation__burger:before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    background-color: #000000;
+    top: -9px;
+    left: 0; }
+  .navigation__burger:before {
+    top: 9px; }
+
+.navigation__list {
+  list-style: none;
+  display: none; }
+
+.logo {
+  text-shadow: 0 0 2px rgba(21, 21, 22, 0.75);
+  font-size: 1.1em;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  letter-spacing: 1.02px;
+  border: 6px solid #170f1c;
+  padding: 8px; }
+  .logo span {
+    color: #77efe5;
+    font-size: 21px;
+    letter-spacing: 1.26px; }
+
+.content {
+  width: 100%;
+  text-align: center; }
+  .content h1 {
+    padding: 200px 0 100px;
+    text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
+    color: #505050;
+    font-size: 2.81em;
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2.7px; }
+  .content-blue {
+    background-color: #76f4ea;
+    padding: 5px; }
+
+.btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+  .btn h4 {
+    padding: 20px 50px 20px 50px;
+    -webkit-border-radius: 2px;
+            border-radius: 2px;
+    border: 2px solid #000000;
+    opacity: 0.75;
+    font-size: 1.125em;
+    font-weight: 700;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2.16px; }
+
+.about {
+  background-color: #f8fafa; }
+  .about__content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    margin-top: 150px; }
+  .about__left, .about__right {
+    width: 50%;
+    min-width: 500px;
+    position: relative;
+    z-index: 3; }
+  .about__left {
+    margin-bottom: 20px; }
+  .about__right {
+    text-align: left;
+    font-family: Merriweather; }
+    .about__right h4 {
+      margin-bottom: 10px;
+      opacity: 0.75;
+      font-size: 1.25em;
+      font-weight: 700;
+      line-height: 28px;
+      text-transform: uppercase;
+      letter-spacing: 1.2px; }
+    .about__right p {
+      opacity: 0.74;
+      font-family: Raleway;
+      font-size: 1em;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0.8px;
+      margin-bottom: 20px; }
+
+.works__list {
+  list-style: none;
+  margin-top: 120px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+
+.works__item {
+  width: 31%;
+  min-width: 370px;
+  margin-bottom: 10px; }
